@@ -8,16 +8,18 @@ import {
     MobilIcon,
     NavMenu,
     NavItem,
-    NavLinks
-} from './NavbarElement'
+    NavLinks,
+    NavBtn,
+    NavBtnLink
+} from './NavbarElements'
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <div>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>DOLLA</NavLogo>
-                    <MobilIcon>
+                    <MobilIcon onClick={toggle}>
                         <FaBars />
                     </MobilIcon>
                     <NavMenu>
@@ -34,6 +36,9 @@ const Navbar = () => {
                             <NavLinks to='SignUp'>Sign Up</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to='/signin'> Sign In </NavBtnLink>
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
         </div>
@@ -41,5 +46,5 @@ const Navbar = () => {
 }
 
 export default Navbar
-// at 41m 15sec 
+// at 1:23:15
 // https://www.youtube.com/watch?v=Nl54MJDR2p8&list=PLIpuIsiCMBrqgGi1-Tnr40JkxCtyTN8Fo&index=6&t=762s
