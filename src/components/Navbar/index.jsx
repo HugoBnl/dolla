@@ -46,5 +46,5 @@ const Navbar = ({ toggle }) => {
 }
 
 export default Navbar
-// at 2:18
+// at 2:50
 // https://www.youtube.com/watch?v=Nl54MJDR2p8&list=PLIpuIsiCMBrqgGi1-Tnr40JkxCtyTN8Fo&index=6&t=762s
