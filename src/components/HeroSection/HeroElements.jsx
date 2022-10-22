@@ -11,7 +11,7 @@ height: 800px;
 position: relative;
 z-index: 1;
 
- :before{
+ &:before{
     content:'';
     position: absolute;
     top: 0;
@@ -46,7 +46,6 @@ background: #232a34;
 export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
-top: 14em; //Rajouter a la mano => en test /!\
 position: absolute;
 padding: 8px 24px;
 display: flex;
