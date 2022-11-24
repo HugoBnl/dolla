@@ -9,7 +9,6 @@ background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 }`
     ;
 
-
 export const InfoWrapper = styled.div`
 display:grid;
 z-index:1;
