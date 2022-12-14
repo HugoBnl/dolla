@@ -9,9 +9,9 @@ import {
     ServicesP,
 } from './ServiceElements'
 
-import Btc from '../../images/img-2.svg';
-import PiggyBank from '../../images/img-3.svg';
-import ChartBoard from '../../images/img-4.svg';
+import Btc from '../../images/digital_currency_1.svg';
+import PiggyBank from '../../images/savings_1.svg';
+import ChartBoard from '../../images/finance_1.svg';
 
 const Services = () => {
     return (

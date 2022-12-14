@@ -57,8 +57,8 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'> DOLLA</SocialLogo>
-                        <WebsiteRights>DOLLA © {new Date().getFullYear()} All rights Reserved.</WebsiteRights>
+                        <SocialLogo to='/'> CRYPTO</SocialLogo>
+                        <WebsiteRights>CRYPTO © {new Date().getFullYear()} No rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                                 <FaFacebook />

@@ -35,7 +35,7 @@ const Navbar = ({ toggle }) => {
     return (
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to='/' onClick={toggleHome}>DOLLA</NavLogo>
+                <NavLogo to='/' onClick={toggleHome}>CRYPTO</NavLogo>
                 <MobilIcon onClick={toggle}>
                     <FaBars />
                 </MobilIcon>
@@ -94,5 +94,3 @@ const Navbar = ({ toggle }) => {
 }
 
 export default Navbar
-// at 3:18:52
-// https://www.youtube.com/watch?v=Nl54MJDR2p8&list=PLIpuIsiCMBrqgGi1-Tnr40JkxCtyTN8Fo&index=6&t=762s

@@ -1,6 +1,6 @@
-import Car from '../../images/img-1.svg';
-import PiggyBank from '../../images/img-3.svg';
-import ChartBoard from '../../images/img-4.svg'; //Obligé de faire un import de cette manière.
+import world from '../../images/connected_world_1.svg';
+import Growth from '../../images/investing_1.svg';
+import ChartBoard from '../../images/finance_1.svg'; //Obligé de faire un import de cette manière.
 
 export const homeObjOne = {
     id: 'about',
@@ -12,8 +12,8 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimited transaction without getting charged any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: Car,
-    alt: 'Car',
+    img: Growth,
+    alt: 'Growth',
     primary: true,
     dark: true,
     darktext: false,
@@ -29,8 +29,8 @@ export const homeObjTwo = {
     description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: PiggyBank,
-    alt: 'PiggyBank',
+    img: world,
+    alt: 'world',
     primary: false,
     dark: false,
     darkText: true,
