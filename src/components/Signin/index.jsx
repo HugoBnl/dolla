@@ -14,6 +14,12 @@ import {
 
 const SignIn = () => {
     return (
+        <SignInContainer/>
+    )
+}
+
+const SignInContainer = () => {
+    return (
         <>
             <Container>
                 <FormWrap>
