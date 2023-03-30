@@ -13,5 +13,3 @@ export default function ScrollToTop() {
 
     return null;
 }
-
-// Replace la fenetre au top en cas de changement de page avec router, ne se voit pas sur cette page car trop petite
